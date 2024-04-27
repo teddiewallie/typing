@@ -6,8 +6,7 @@ window.onload = async () => {
 
 const template = `hello
 I'm Ted.
-I like computers :D
-What would you like to do?`
+I like computers :D`;
 
 const time = (ms, max) => (Math.floor(Math.random() * max) + ms);
 

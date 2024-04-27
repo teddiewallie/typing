@@ -1,0 +1,1 @@
+http://typing.tedwall.se/
