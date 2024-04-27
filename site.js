@@ -61,8 +61,6 @@ const removeCaret = () => new Promise((resolve) => {
 const typeText = async (text, ms) => new Promise(async (resolve) => {
   const textArray = text.split('');
 
-  console.log(textArray);
-
   while (textArray.length) {
     removeCaret();
     await pushChar(textArray.shift());
