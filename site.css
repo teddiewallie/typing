@@ -1,0 +1,27 @@
+body {
+  background: #000;
+  font-family: monospace;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.caret {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%    { color: rgba(255, 255, 255, 1.0) }
+  40%   { color: rgba(255, 255, 255, 1.0) }
+  100%  { color: rgba(255, 255, 255, 0)   }
+}
+
