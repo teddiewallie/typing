@@ -1,1 +1,1 @@
-http://typing.tedwall.se/
+https://teddiewallie.github.io/typing
